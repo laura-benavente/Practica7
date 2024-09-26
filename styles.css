@@ -1,0 +1,30 @@
+body {
+    display: flex; /*modelo de caja*/
+    justify-content: center; /*centrar contenido*/
+    align-items: center; /*centrar contenido*/
+    height: 100vh; /*altura del body*/
+    margin: 0; /*margen body*/
+    background-color: rgb(253, 224, 198); /*Color de fondo del body*/
+}
+
+table {
+    border-collapse:collapse; /*borde pegado entre celdas*/
+    border: 3px solid #d6a2e8; /* Borde exterior y color del borde*/
+    width: 90%; /*Ancho de la tabla */
+    font-size: 1.5em; /*tamaño fuente*/
+}
+
+th, td {
+    border: 3px solid #d6a2e8; /*tamaño y color bordes celdas*/
+    padding: 15px; /*Relleno para tamaño de celdas*/
+    text-align: center; /*centra el texto*/
+}
+
+th {
+    background-color: #fadadd; /* Color fondo de encabezados*/
+}
+
+td {
+    background-color: #f3e5f5; /*Color fondo de celdas*/
+}
+
